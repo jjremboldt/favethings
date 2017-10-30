@@ -7,68 +7,44 @@
     <script src="js/scripts.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <!-- <link rel="icon" type="image/png" sizes="32x32" href="img/vacay-icon.png"> page icon -->
-    <title>My Title</title>
+    <title>Favorite Things</title>
   </head>
     <body>
-      <div class="container">
-        <h2>***form title***</h2>
+      <div class="container" id="form-container">
+        <div class="row">
+          <div class="col-md-6">
+        <h2>Please answer these questions:</h2>
         <div id="example">
           <form>
                 <div class="form-group">
-                  <label for="input1">1</label>
+                  <label for="input1">What is your favorite food?</label>
                   <input id="input1" class="form-control" type="text">
                 </div>
                 <div class="form-group">
-                  <label for="input2">2</label>
+                  <label for="input2">What is your favorite season?</label>
                   <input id="input2" class="form-control" type="text">
                 </div>
                 <div class="form-group">
-                  <label for="input3">3</label>
+                  <label for="input3">What is yout favorite holiday?</label>
                   <input id="input3" class="form-control" type="text">
                 </div>
-                <div class="form-group">
-                  <label for="input4">4</label>
-                  <input id="input4" class="form-control" type="text">
-                </div>
-                <div class="form-group">
-                  <label for="input5">5</label>
-                  <input id="input5" class="form-control" type="text">
-                </div>
-                <div class="form-group">
-                  <label for="input6">6</label>
-                  <input id="input6" class="form-control" type="text">
-                </div>
 
-                <button type="submit" class="btn">button label</button>
+
+                <button type="submit" class="btn btn-info">Submit</button>
               </form>
             </div>
-
-
-            <div id="myOutPut">
-              <h2>***output area***</h2>
-              <p>
-                <span class="input1">input1</span>
-                <br>
-                <span class="input2">input2</span>
-                <br>
-                <span class="input3">input3</span>
-                <br>
-                <span class="input4">input4</span>
-                <br>
-                <span class="input5">input5</span>
-                <br>
-                <span class="input6">input6</span>
-                <br>
-              </p>
             </div>
-
-      <!-- <button id="go" type="submit" class="btn btn-info">Let's Go!</button>
-      <button id="again" type="submit" class="btn btn-info">Try Again!</button>
-    </form>  -->
-
-  </body>
-    </div>
-      <div class="footer_bottom fourth-bg">
-        <p><center> 2017 &copy; Copyright John Remboldt. All Rights Reserved. </p>
+          <div class="col-md-6">
+            <div id="myOutPut">
+              <h2>Output Area</h2>
+              <ul>
+                <li><span class="input1"></span></li>
+                <li><span class="input2"></span></li>
+                <li><span class="input3"></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
+  </body>
 </html>
